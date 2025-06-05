@@ -24,7 +24,7 @@ let inputNumbers () =
 let numbers = inputNumbers()
 let products = numbers |> Seq.map digitProduct
 printfn "Произведения цифр: %A" (products |> Seq.toList)
-printfn "Произведения цифр чисел: %A" products
+
 
 
 
